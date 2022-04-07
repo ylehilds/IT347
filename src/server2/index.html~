@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+
+
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="javascript/client.js" ></script>
+
+</head>
+
+<body onLoad="getBottom()">
+
+<div id="wrapper">
+<h1>Chatroom</h1>
+
+<div class='chatarea' id='chatarea' >
+
+</div><br />
+
+<form  action="/CHAT" method="get" >
+				<div class="name">
+		Name: <input type='text' id='name' name='name' value='
+
+' /><br />
+
+</div><div class="chatline">		
+
+		Input chat line:<input type="text" name="line" id='line' class="chatbox" /><<br /><p>You can use the following Emoticons :),   :(, ^_^, :D, :p</p>
+</div>
+		<input type="button" value="Submit" onClick="url()" /><br />
+
+
+</form>			
+
+
+</div>
+
+
+
+</body>
+
+
+</html>
+

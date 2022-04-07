@@ -1,0 +1,70 @@
+*{
+
+
+}
+
+body{
+background: #C3E9FA;
+
+}
+
+h1{
+font-size:1.3em;
+margin:0 280px 0;
+
+
+
+}
+
+
+#wrapper{
+width: 800px;
+height: 630px;
+margin: 20px auto;
+background: white;
+-moz-border-radius: 17px;
+border-radius: 17px;
+-webkit-box-shadow: 10px 10px 20px #363636;
+-moz-box-shadow: 10px 10px 20px #363636;
+box-shadow: 10px 10px 20px #363636;
+
+}
+
+.chatarea{
+width: 599px;
+height: 400px;
+margin:10px 100px;
+background: blue;
+overflow: -moz-scrollbars-vertical;
+
+}
+
+
+.name{
+height:36px;
+margin:10px 99px;
+width:300px;
+
+}
+
+
+.chatline{
+height:75px;
+margin:10px 99px;
+width:571px;
+}
+
+
+.chatbox{
+
+width: 400px;
+
+
+}
+
+p{
+margin: 1px 2px;
+padding: 1px 2px;
+
+
+}
